@@ -191,7 +191,7 @@ func (s LightningSorceress) KillAndariel() action.Action {
 }
 
 func (s LightningSorceress) KillSummoner() action.Action {
-	return s.killMonsterByName(npc.Summoner, data.MonsterTypeNone, lightningSorceressMaxDistance, false, nil)
+	return s.killMonsterByName(npc.Summoner, data.MonsterTypeNone, lightningSorceressMaxDistance, true, nil)
 }
 
 func (s LightningSorceress) KillDuriel() action.Action {
